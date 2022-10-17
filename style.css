@@ -59,7 +59,7 @@ header {
     color: #e6e6e6;
     /* setting min-height for the header section can expand if needed */
     min-height: 70px;
-    border-bottom: 3px solid #eb4442;
+    border-bottom: 3px solid #000000;
     padding: 5px 0;
 }
 
@@ -167,6 +167,12 @@ i {
 .fa-square-js {
     color: #dec509;
 }
+
+.fa-bootstrap {
+    color: #66419c;
+}
+
+
 
 /* About */
 #about {

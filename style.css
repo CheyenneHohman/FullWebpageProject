@@ -25,18 +25,6 @@ ul {
     /* can also use list-style: none; */
 }
 
-.btn-1 {
-    height: 38px;
-    background-color: #eb4442;
-    border: 0;
-    border-radius: 4px;
-    /* top right bottom left */
-    /* padding: 0 20px 0 20px; */
-    /* top & bottom, then left & right */
-    padding: 0 20px;
-    color: #fff;
-}
-
 .light, .dark {
     padding: 15px;
     margin-top: 10px;
@@ -55,7 +43,7 @@ ul {
 
 /* Header */
 header {
-    background-color: #2b2b3e;
+    background-color: #1d1d22;
     color: #e6e6e6;
     /* setting min-height for the header section can expand if needed */
     min-height: 70px;
@@ -100,11 +88,15 @@ header a {
 /* Showcase */
 #showcase {
     min-height: 400px;
-    background-image: url("Images/laptop.png");
+    background-image: url("images/bgpic.jpg");
     background-position: center;
     background-size: cover;
     text-align: center;
     color: #fff;
+    filter: brightness (10%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),
+     rgba(0, 0, 0, 0.7)), url("images/bgpic.jpg");
+    
 }
 
 #showcase h1 {
@@ -115,25 +107,6 @@ header a {
 
 #showcase p {
     font-size: 20px;
-}
-
-/* Newsletter */
-#newsletter {
-    background-color:#2b2b3e;
-    padding: 15px; 
-    color: #e6e6e6
-}
-
-#newsletter > .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#newsletter input {
-    padding: 4px;
-    height: 25px; 
-    width: 250px;
 }
 
 /* Boxes */
@@ -176,52 +149,30 @@ i {
 
 /* About */
 #about {
-    background-color: #2b2b3e;
+    background-color: #1d1d22;
     padding: 20px;
 }
 
 #about > .container {
     display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 50px;
 }
 
 #about .main-col {
     color: #fff;
 }
 
-#about .sidebar {
-    margin-top: 10px;
+
+/* Features */
+.card > img{
+    width: 100%;
+    height: 30vw;
+    object-fit: cover;
 }
 
-/* Services */
-#services > .container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    column-gap: 40px;
-}
-
-#services li {
-    border: 1px solid #ccc;
-    padding: 20px;
-    margin-bottom: 5px;
-    background-color: #e6e6e6
-}
-
-#services .sidebar {
-    margin-top: 10px;
-    margin-right: 10px;
-
-}
-
-#services input, #services textarea {
-    padding: 5px;
-    width: 90%;
-}
 
 /* Footer */
 footer {
-    background-color: #2b2b3e;
+    background-color: #1d1d22;
     color:#e6e6e6; 
     padding: 20px;
     text-align: center;

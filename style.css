@@ -145,6 +145,9 @@ i {
     color: #66419c;
 }
 
+.fa-python {
+    color: #306998;
+}
 
 
 /* About */
@@ -161,22 +164,73 @@ i {
     color: #fff;
 }
 
+#examples  {
+    font-size: 1.2em;
+    padding: 1em;
+    margin: 30px 50px;
+    background-color: lightgrey;
+    border-radius: 5px;
+}
 
 /* Features */
+.card {
+    padding: 25px;
+    margin: 30px;
+}
+
 .card > img{
     width: 100%;
-    height: 30vw;
+    height: 25vw;
     object-fit: cover;
 }
 
+
+.resume {
+font-size: 1.2em;
+padding: 3em;
+margin: 30px;
+background-color: lightgrey;
+}
+
+/* Socials */
+.socials {
+    display: inline;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+.socials li {
+    display: inline;
+    list-style-type: none;
+    margin: 30px;
+    text-decoration: none;
+    list-style: none;
+}
+
+.socials a{
+    color: #000;
+    text-decoration: none;
+    font-size: 1.2em;
+    }
+
+.fa-file, .fa-envelope, .fa-twitter, .fa-github {
+    font-size: 2em;
+    color: rgb(185, 184, 184);
+}
+
+.fa-file:hover, .fa-envelope:hover, .fa-twitter:hover,  .fa-github:hover{
+    color: black;
+}
 
 /* Footer */
 footer {
     background-color: #1d1d22;
     color:#e6e6e6; 
-    padding: 20px;
+    padding: 15px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 /* Media Queries */
@@ -188,18 +242,5 @@ footer {
         align-items: center;
         justify-content: center;
         margin-bottom: 20px;
-    }
-
-    #showcase .container {
-        padding-bottom: 50px;
-    }
-
-    .box {
-        width: 80%;
-    }
-
-    #about > .container, 
-    #services > .container {
-        grid-template-columns: 1fr;
     }
 }
